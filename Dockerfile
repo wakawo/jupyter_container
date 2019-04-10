@@ -9,10 +9,6 @@ RUN apt-get install -y gdb
 RUN apt-get install -y make
 RUN apt-get install -y cmake
 
-# boost
-RUN apt-get install -y libboost-all-dev
-RUN apt-get install -y libboost-python-dev
-
 # wget, curl
 RUN apt-get install -y wget
 RUN apt-get install -y curl
@@ -20,22 +16,11 @@ RUN apt-get install -y curl
 # git
 RUN apt-get install -y git
 
-# hdf5
-# RUN apt-get install -y libhdf5-serial-dev
-
-# pybind11
-RUN pip install pybind11
-
 # opencv
 RUN pip install opencv-python
 RUN apt update && apt install -y libsm6 libxext6
 RUN apt-get install libxrender1
 RUN pip install opencv-contrib-python
-
-# tools to get image by create ID
-RUN pip install psycopg2
-RUN pip install sqlalchemy-redshift
-RUN pip install sqlalchemy
 
 # tensorflow, keras
 RUN pip install --upgrade pip
