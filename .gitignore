@@ -1,2 +1,7 @@
+dir
+build
+run
+build_board
+run_board
 src/.ipynb_checkpoints/
 src/tmp.yml

@@ -20,6 +20,6 @@ OPTIMIZER:
  MOMENTUM: 0.9
 L2: 0.001
 DROPOUT: 0.5
-MODEL_NAME: dokusho_analysis
+MODEL_NAME: docker_test
 WORKERS: 6
 
