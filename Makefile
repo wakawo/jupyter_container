@@ -1,8 +1,8 @@
 DOCKER=sudo docker
-IMAGE=dokusho_imgae
-BOARDIMAGE=dokusho_board
-CONTAINER=dokusho_container
-BOARDCONTAINER=dokusho_board_container
+IMAGE=jupyter_imgae
+BOARDIMAGE=juputer_board
+CONTAINER=jupyter_container
+BOARDCONTAINER=jupyter_board_container
 TMP=tmp.yml
 CONFIG=config.yml
 

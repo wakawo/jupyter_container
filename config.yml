@@ -1,7 +1,7 @@
-PROJECT: dokusho_analysis
+PROJECT: docker_test
 
 # general settings
-NV_GPU: 1
+NV_GPU: 0
 LOG_DIR_PATH: logs
 MODEL_DIR_PATH: models
 DATA_DIR_PATH: data
